@@ -6,15 +6,17 @@ namespace dummy_project
     {
         static void Main(string[] args)
         {
-			int[] dummy_list = { 100, 23, 45, 12, 8, 2, 1000, 23, 14 };
+            Console.WriteLine("hello world!");
 
-			InsertionSort insertion_sort = new InsertionSort ();
-			int[] sorted_list = insertion_sort.Sort (dummy_list);
-			
-			foreach (int num in sorted_list)
-			{
-				Console.WriteLine (num);
-			}
+            int[] Digits = { -2, 45, 0, 11, -9 };
+
+            Sort s = new Sort();
+
+            Digits = s.bubble_sort(Digits);
+            for (int k = 0; k < Digits.Length; k++)
+            {
+                Console.WriteLine(Digits[k]);
+            }
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dummy_project
 {
-    class Sort
+    public class Sort
     {
 
         public int[] bubble_sort(int[] digits)
