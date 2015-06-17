@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections;
 
 namespace dummy_project
 {
@@ -10,7 +7,7 @@ namespace dummy_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world!");
+			int[] dummy_list = { 100, 23, 45, 12, 8, 2, 1000, 23, 14 };
         }
     }
 }
