@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace dummy_project
 {
@@ -6,7 +7,8 @@ namespace dummy_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world!");
+			// Run the windows forums
+			Application.Run(new dummy_window ());
 
             int[] Digits = { -2, 45, 0, 11, -9 };
 
